@@ -1,0 +1,22 @@
+$color_1: red;
+$color_2: white;
+
+body {
+  background-color: $color_1;
+  color: $color_2;
+}
+
+nav {
+  background: $color_2;
+  ul {
+    display: flex;
+    li {
+      margin-left: 50px;
+      a {
+        text-decoration: none;
+        color: $color_1;
+        font-size: 25px;
+      }
+    }
+  }
+}
